@@ -36,6 +36,9 @@ public class Account{
     public ArrayList<Transaction> transactions(){
         return transactions;
     }
+    public int ID(){
+        return myID;
+    }
 
     public String toString(){
         String tranact = "";
